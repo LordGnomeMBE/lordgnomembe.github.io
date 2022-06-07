@@ -3,109 +3,99 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {
-  margin: 0;
-  font-family:verdana;
+* {
+  box-sizing: border-box;
 }
 
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
 }
 
-.sidebar a {
+.menu a {
+  background-color: #f3f3f3;
+  padding: 8px;
+  margin-top: 7px;
   display: block;
+  width: 100%;
   color: darkred;
-  padding: 16px;
-  text-decoration: none;
 }
- 
-.sidebar a.active {
-  background-color: #950d14;
+
+.menu a:hover {
+  background-color: #cf151e;
+  color:white
+}
+
+.menu a.active {
+  background-color: darkred;
   color: white;
 }
 
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #FFFFFF;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
 .sidebar a:hover:not(.active) {
   background-color: #cf151e;
   color: white;
 }
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 700px;
-}
-
-@media screen and (max-width: 10000000px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}
-p.small {
-  font-variant: small-caps;
-}
-
-.footer {
-  padding: 3px;
-  background: darkred;
-  color: white;
-}
-
-.footer > h2, p {
-  margin: 4px;
-  font-size: 90%;
-}
-
 </style>
 </head>
-<body>
+<body style="font-family:Verdana;color:black;">
 
-<div class="sidebar">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">About</a>
-  <a href="#contact">Writing</a>
-  <a href="#about">Worldbuilding</a>
-  <a href="#about">Art</a>
+<div style="background-color:#ed454e;padding:15px;text-align:center;color:white">
+  <h1>Welcome to my site!</h1>
 </div>
 
-<div class="content">
-  <h2><center>Welcome to my Site!</center></h2>
-  <h3>I'm Lord Gnome. You can find me on Reddit as <a href="https://www.reddit.com/user/lordgnomembe">u/LordGnomeMBE</a>.</h3>
-<img src="https://i.ibb.co/McKH5dQ/Lord-Gnome-MBE.png" align="left" style="width:120px;height:180px;" /><p>I made this site to showcase my work, using parts of it as a portfolio, as well as demonstrating my ability to use basic html and css. I will also use it to deposit various things i've written. It's really a personal site, but if you're reading it and you're not me, enjoy :)</p>
-</br>
-<p>Sorry if you're viewing this page from a phone &#128241; and it's difficult to read; i'm working on a mobile friendly version. However, I did design this page to be very simple so it will load faster than if I used all the bells and whistles I could have done.</p>
-</br>
-<p><center>*  *  *</center></p>
-</br>
-<p>If you're still here, rather than closing the site or going to a different page, you could:</p>
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#"class="active"style="text-decoration:none">Home</a>
+    <a href="#"style="text-decoration:none">About</a>
+    <a href="#"style="text-decoration:none">Writing</a>
+    <a href="#"style="text-decoration:none">Worldbuilding</a>
+  </div>
+
+  <div class="main">
+    <h3>I'm Lord Gnome. You can find me on Reddit as <a href="https://www.reddit.com/user/lordgnomembe">u/LordGnomeMBE</a>.</h3>
+    <p>I made this site to showcase my work, using parts of it as a portfolio, as well as demonstrating my ability to use basic html and css. I will also use it to deposit various things i've written. It's really a personal site, but if you're reading it and you're not me, enjoy :)</p>
+    <p><center>*  *  *</center></p>
+    <p>If you're still here, rather than closing the site or going to a different page, you could:</p>
 <p>- Read more about me on Wikipedia <a href="https://en.wikipedia.org/wiki/Recurring_jokes_in_Private_Eye#:~:text=Lord%20Gnome%20is,the%20fictitious%20proprietor.">here</a></p>
 <p>- Buy something from the <a href="https://images-na.ssl-images-amazon.com/images/I/714JXNw3tfL.jpg">Gnomemart</a></p>
 <p>- <a href="mailto:lordgnomembe@gmail.com">Send me a message</a></p>
 <p>- watch <a href="https://www.youtube.com/watch?v=PLOPygVcaVE">this</a> exciting video</p>
 <p>- Er...</p>
 <p>- That's it.</p>
-</br>
-  <article class="footer">
-    <h2 style="font-size:2vw;"><center>&copy; Rt. Hon. Lord A. P. Gnome MBE 2022</center></h2>
-<a href="mailto:lordgnomembe@gmail.com" style="color:white"><center>lordgnomembe@gmail.com</center></a><center><p class="small" style="font-size:2vw;">page last updated 6/6/22</p></center>
-  </article>
+  </div>
+
+  <div class="right">
+    <img src="https://i.ibb.co/McKH5dQ/Lord-Gnome-MBE.png" style="max-width:100%;height:auto;">
+  </div>
 </div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">&copy; Rt. Hon. Lord A. P. Gnome MBE 2022
+<a href="mailto:lordgnomembe@gmail.com"><center>lordgnomembe@gmail.com</center></a>
+<p class="small" style="font-size:2vw;">page last updated 7/6/22</p></center>
+</div>
+
 </body>
 </html>
-
