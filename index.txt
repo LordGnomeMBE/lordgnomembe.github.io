@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lord Gnome MBE's Site</title>
+<link rel="icon" type="image" href="https://i.ibb.co/89zKqS5/lgmbe-logo-modified.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orange;
+}
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #f3f3f3;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: darkred;
+}
+
+.menu a:hover {
+  background-color: #cf151e;
+  color:white
+}
+
+.menu a.active {
+  background-color: darkred;
+  color: white;
+}
+
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #FFFFFF;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.sidebar a:hover:not(.active) {
+  background-color: #cf151e;
+  color: white;
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:black;">
+
+<div style="background-color:#ed454e;padding:15px;text-align:center;color:white">
+  <h1>Welcome to my site!</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="https://lordgnomembe.github.io"class="active"style="text-decoration:none">Home</a>
+    <a href="https://lordgnomembe.github.io/about.html"style="text-decoration:none">About</a>
+    <a href="https://lordgnomembe.github.io/writing.html.html"style="text-decoration:none">Writing</a>
+    <a href="https://lordgnomembe.github.io/worldbuilding.html"style="text-decoration:none">Worldbuilding</a>
+  </div>
+
+  <div class="main">
+    <h3>I'm Lord Gnome. You can find me on Reddit as <a href="https://www.reddit.com/user/lordgnomembe">u/LordGnomeMBE</a>.</h3>
+    <p>I made this site to showcase my work, using parts of it as a portfolio, as well as demonstrating my ability to use basic html and css. I will also use it to deposit various things i've written. It's really a personal site, but if you're reading it and you're not me, enjoy :)</p>
+<p>This site is not fully optimised for mobile yet, so sorry if you're viewing this page from a phone &#128241; and it's difficult to read
+    <p><center>*  *  *</center></p>
+    <p>If you're still here, rather than closing the site or going to a different page, you could:</p>
+<p>- Read more about me on Wikipedia <a href="https://en.wikipedia.org/wiki/Recurring_jokes_in_Private_Eye#:~:text=Lord%20Gnome%20is,the%20fictitious%20proprietor.">here</a></p>
+<p>- Buy something from the <a href="https://images-na.ssl-images-amazon.com/images/I/714JXNw3tfL.jpg">Gnomemart</a></p>
+<p>- <a href="mailto:lordgnomembe@gmail.com">Send me a message</a></p>
+<p>- watch <a href="https://www.youtube.com/watch?v=PLOPygVcaVE">this</a> exciting video</p>
+<p>- Er...</p>
+<p>- That's it.</p>
+  </div>
+
+  <div class="right">
+    <img src="https://i.ibb.co/8rKxxwB/lordgnomembe-removebg-preview.png" style="max-width:100%;height:auto;">
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">&copy; Rt. Hon. Lord A. P. Gnome MBE 2022
+<a href="mailto:lordgnomembe@gmail.com"><center>lordgnomembe@gmail.com</center></a>
+<p class="small" style="font-size:2vw;">site last updated 7/6/22</p></center>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lord Gnome MBE's Site</title>
+<link rel="icon" type="image" href="https://i.ibb.co/89zKqS5/lgmbe-logo-modified.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orange;
+}
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #f3f3f3;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: darkred;
+}
+
+.menu a:hover {
+  background-color: #cf151e;
+  color:white
+}
+
+.menu a.active {
+  background-color: darkred;
+  color: white;
+}
+
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #FFFFFF;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+.sidebar a:hover:not(.active) {
+  background-color: #cf151e;
+  color: white;
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:black;">
+
+<div style="background-color:#ed454e;padding:15px;text-align:center;color:white">
+  <h1>About Me</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="https://lordgnomembe.github.io"style="text-decoration:none">Home</a>
+    <a href="https://lordgnomembe.github.io/about.html"class="active"style="text-decoration:none">About</a>
+    <a href="https://lordgnomembe.github.io/writing.html.html"style="text-decoration:none">Writing</a>
+    <a href="https://lordgnomembe.github.io/worldbuilding.html"style="text-decoration:none">Worldbuilding</a>
+  </div>
+
+  <div class="main">
+    <h3>I am the Rt. Hon. Aristides P. Gnome MBE.</h3>
+    <p><img src="https://i.ibb.co/KXyS7Dc/lordgnomembe.png" style="max-width:40%;height:auto;"align="left"><center><b>About Me:</b></center></p>
+<p>- I'm in the UK</p>
+<p>- I read <a href="https://private-eye.co.uk">Private Eye</a>
+<p>- I enjoy worldbuilding;I'm currently working on the world of Tirelne</p>
+<p>- I occasionally write as a hobby - mainly political writing exploring my thoughts about the UK</p>
+<p>- I know a little code (HTML and CSS), which I used for this site, and I have contributed a small amount of style code to <a href="https://github.com/Azgaar/Fantasy-Map-Generator">Azgaar's Fantasy Map Generator</a>
+<p><center><b>Contact Me:</b></center></p>
+<p><a href="mailto:lordgnomembe@gmail.com"><center>lordgnomembe@gmail.com</center></a></p>
+<p><center><b>Social:</b></center></p>
+<p><center><a href="https://www.youtube.com/channel/UC5v7Q6cHwkrf2iR9jkVaKVg"><center>YouTube</center></a>
+<p><center><a href="https://www.reddit.com/u/LordGnomeMBE"><center>Reddit</center></a>
+  </div>
+
+</div>
+</br>
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">&copy; Rt. Hon. Lord A. P. Gnome MBE 2022
+<a href="mailto:lordgnomembe@gmail.com"><center>lordgnomembe@gmail.com</center></a>
+<p class="small" style="font-size:2vw;">site last updated 7/6/22</p></center>
+</div>
+
+</body>
+</html>
